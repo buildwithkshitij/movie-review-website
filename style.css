@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0B0A0EF2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nav-address {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 160px;
+}
+
+.logo {
+    background-image: url('moctale-logo.png');
+    background-size: cover;
+    height: 80%;
+    width: 170%;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #3a3742;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
